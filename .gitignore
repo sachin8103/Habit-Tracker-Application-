@@ -1,0 +1,24 @@
+# Maven
+/target/
+.mvn/timing.properties
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDEs
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# OS files
+.DS_Store
+Thumbs.db
